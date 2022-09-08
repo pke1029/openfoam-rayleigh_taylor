@@ -29,3 +29,14 @@ and then
 ```
 to run it on four cores using the interFoam solver. 
 
+4. Once the simulation is finished, use the command
+```
+> reconstructPar
+```
+to recombine the four pieces of solutions into one. 
+
+5. Use the command
+```
+> paraFoam 
+```
+to open the the solution in the ParaView software. 
